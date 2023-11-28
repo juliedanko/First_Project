@@ -226,7 +226,7 @@ GameObject:
   - component: {fileID: 1646173449}
   - component: {fileID: 1646173448}
   - component: {fileID: 1646173447}
-  - component: {fileID: 1646173450}
+  - component: {fileID: 1646173451}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -322,7 +322,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1646173450
+--- !u!114 &1646173451
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -331,17 +331,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1646173446}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b498a6c4e5f5f7418c687de9f122178, type: 3}
+  m_Script: {fileID: 11500000, guid: d316635663d0a0446bed3f8176f0246d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walk: walk
-  attack: 
-  jumpAttack: 
-  die: 
-  walkKey: 275
-  attackKey: 0
-  jumpAttackKey: 0
-  dieKey: 0
+  keys:
+  - parameterName: walk_2
+    parameterType: 0
+    keyCode: 275
+  - parameterName: attack
+    parameterType: 1
+    keyCode: 97
+  - parameterName: die
+    parameterType: 1
+    keyCode: 274
+  - parameterName: die_2
+    parameterType: 1
+    keyCode: 273
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

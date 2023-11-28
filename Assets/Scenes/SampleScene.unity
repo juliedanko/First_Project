@@ -249,11 +249,11 @@ MonoBehaviour:
   walk: walk
   attack: attack
   jumpAttack: Jump Attack
-  die: 
+  die: Die
   walkKey: 275
   attackKey: 97
   jumpAttackKey: 273
-  dieKey: 0
+  dieKey: 274
 --- !u!95 &1404376923
 Animator:
   serializedVersion: 5
